@@ -1,0 +1,33 @@
+table
+{
+border-collapse: collapse; border: 2px solid black;
+}
+td,th,tfoot,thead
+{
+border: 1px solid black; text-align: center;
+}
+caption{
+	text-decoration: underline;
+}
+.IG1 div {
+	transform: rotate(-90deg); white-space: nowrap; color: red;
+}
+.IG1 {
+	background-color: green;
+}
+}
+.oblique div {
+	transform: rotate(30deg);
+}
+.IG2{
+	color: green;
+	font-size: 150%;
+}
+.film{
+display: flex;
+justify-content:space-between ;
+}
+.filière{
+	display: flex;
+justify-content:space-between ;
+}

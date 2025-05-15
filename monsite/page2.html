@@ -1,0 +1,139 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+	<title>Bienvenue sur mon site !</title>
+	<meta http-equiv="Content-Type"content="text/html;charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<style>
+		.header {
+			justify-content: space-between;
+			align-items: stretch;
+			padding: 20px;
+			display: flex;
+		}
+		.header img {
+			height: 100px;
+		}
+		.header h1 {
+			flex-grow: 1;
+			text-align: center;
+			font-size: 30px;
+			margin: 0;
+		}
+		.box-left, .box-center, .box-right {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			padding: 20px;
+			flex: 1;
+			border-radius: 25px;
+			margin: 10px;
+			backdrop-filter: blur(12px);
+			 -webkit-backdrop-filter: blur(12px);
+			 box-shadow: 0 0 20px rgba(255, 255, 255, 0.08);
+			 padding: 20px;
+			 margin: 10px;
+		}
+		.box-left {
+			background: linear-gradient(135deg, rgba(64, 115, 158, 0.3), rgba(85, 200, 255, 0.2));
+		}
+		.box-center {
+			background: linear-gradient(135deg, rgba(255, 215, 100, 0.25), rgba(255, 255, 150, 0.15));
+		}
+		.box-right {
+			background: linear-gradient(135deg, rgba(255, 100, 100, 0.25), rgba(255, 50, 150, 0.15));
+		}
+		.box-left img, .box-right img {
+			height: 80px;
+			flex: 0 0 30%;
+		}
+		.box-center h1 {
+			color: white;
+			margin: 0;
+			font-size: px;
+		}
+		.section-title {
+			text-align: center;
+			text-decoration: underline;
+			margin-top: 30px;
+			font-size: 24px;
+		}
+	</style>
+</head>
+<body>
+<div class="header">
+	<a href="https://eneam.uac.bj" class="box-left">
+	<img src="D:\monsite\img\OIP.jpg" alt="LOGO ENEAM"/></a>
+	<div class="box-center">
+	<h1 align="center">BIENVENUE DANS MON SITE WEB</h1></div>
+	<a href="https://uac.bj" class="box-right">
+	<img src="img/OIP (1).jpg" alt="LOGO UAC"/></a>
+</div>
+<section class="etat-civil">
+<h2 class="section-title">I- ETAT CIVIL</h2>
+  <div class="info-container">
+    <div class="info-item"><strong>Nom :</strong><a href="#personnalite"> AYEGNON</a></div>
+    <div class="info-item"><strong>Prénoms :</strong><a href="#personnalite"> Erwin Macarin Précieux</a></div>
+    <div class="info-item"><strong>Date de naissance :</strong> 05 Juin 2007</div>
+    <div class="info-item"><strong>Lieu de naissance :</strong> Paris, France</div>
+    <div class="info-item"><strong>Sexe :</strong> Masculin</div>
+    <div class="info-item"><strong>Nationalité :</strong> Canadienne</div>
+    <div class="info-item"><strong>Adresse :</strong> 123 rue des Lilas, 75000 Paris</div>
+    <div class="info-item"><strong>Téléphone :</strong> +229 44 91 49 47</div>
+    <div class="info-item"><strong>Email :</strong> précieuxayegnon@gmail.com</div>
+    <div class="info-item"><strong>Situation matrimoniale :</strong> Célibataire Sans Engagement</div>
+    <div class="info-item"><strong>Profession :</strong> Développeur web</div>
+    <div class="info-item"><strong>Langues parlées :</strong> Français, Anglais, Espagnol</div>
+    <div class="info-item"><strong>Groupe sanguin :</strong> O-</div>
+    <div class="info-item"><strong>Personne à contacter :</strong> Vladimir Vladimirovitch POUTINE (+33 6 98 76 54 32)</div>
+  </div> <div class="photo-identite">
+  <a 
+  href="page1.html#fable-fontaine"><img src="img/kyotaka.png.jpg" alt="AYEGNON Précieux"/></a><p>AYEGNON Précieux</p>
+</div>
+</section>
+<section class="diplomes">
+  <h2>II – MES DIPLÔMES</h2>
+  <div class="diplome-list">
+    <div class="diplome">
+      <h3>Baccalauréat série C</h3>
+      <p>Année : 2012</p>
+      <p>Lycée : Pierre Manoel Talon au Bénin</p>
+    </div>
+    <div class="diplome">
+      <h3>Licence en Informatique</h3>
+      <p>Année : 2015</p>
+      <p>Université : Stanford University aux Etats-Unis</p>
+    </div>
+    <div class="diplome">
+      <h3>Master en Intelligence Artificielle (IA)</h3>
+      <p>Année : 2018</p>
+      <p>Université : Stanford University aux Etats-Unis</p>
+    </div>
+    <div class="diplome">
+      <h3>PhD en Intelligence Artificielle (IA)</h3>
+      <p>Année : 2021</p>
+      <p>Université : University of Oxford au Royaume-Uni</p>
+    </div>
+    <div class="diplome">
+      <h3>PhD en Informatique Quantique</h3>
+      <p>Année : 2024</p>
+      <p>Université : Harvard University au Massachusetts</p>
+    </div>
+    </div>
+  </div>
+</section>
+<section id="personnalite" style="padding: 20px; background-color: #f7f7f7; border-radius: 10px; margin-top: 30px;">
+  <h2 style="color: #333;">Description de ma personnalité</h2>
+  <p style="font-size: 16px; color: #555; line-height: 1.6;">
+    Curieux, créatif et déterminé, je m’investis pleinement dans chaque projet que j’entreprends.
+    J’aime apprendre, comprendre et repousser mes limites, que ce soit dans un cadre académique, professionnel ou artistique.
+    Mon esprit analytique me permet de réfléchir avec logique, tandis que mon côté intuitif m’aide à m’adapter rapidement aux situations nouvelles.
+    À l’aise en autonomie comme en équipe, je fais preuve d’un bon équilibre entre rigueur et flexibilité.
+    J’accorde aussi une grande importance à l’authenticité, à l’humour et à la bienveillance dans mes relations.En dehors du travail, je suis passionné par les animés et les jeux vidéo, qui nourrissent ma créativité et ma réflexion. Je trouve dans ces univers une source d'inspiration constante, notamment à travers des personnages comme Kyotaka Ayanokōji, dont l’intelligence froide et la stratégie silencieuse me fascinent. Il incarne un idéal de calme, de maîtrise de soi et de lucidité que j’admire profondément.
+
+Et entre nous… si la vie était un animé, je serais probablement ce mec discret au fond de la classe qui observe tout, mais qui retourne la situation quand personne s’y attend. Sauf que moi, j’ai le Wi-Fi et un joystick.
+  </p>
+</section>
+</body>
+</html>

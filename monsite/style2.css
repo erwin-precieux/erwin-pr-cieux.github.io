@@ -1,0 +1,128 @@
+img{
+	width:10%;
+}
+body {
+			background: linear-gradient(to bottom right, #ffd6e0, #ffe6f0);
+			background-size: cover;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+			margin: 0;
+			font-family: 'Segoe UI' , sans-serif;
+		}
+		.etat-civil {
+    max-width: 800px;
+    margin: 40px auto;
+    background: rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    color: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+}
+@keyframes animeTitre {
+    0% {
+        opacity: 0;
+        transform: scale(0.8) translateY(-20px);
+        text-shadow: none;
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1) translateY(0);
+        text-shadow: 0 0 12px rgba(255, 255, 255, 0.7);
+    }
+}
+
+.etat-civil h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 28px;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+    margin-bottom: 25px;
+    opacity: 0;
+    animation: animeTitre 1s ease-out forwards;
+}
+
+.info-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.info-item {
+    background-color: rgba(255, 255, 255, 0.05);
+    padding: 12px 20px;
+    border-radius: 12px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.photo-identite {
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.photo-identite img {
+  width: 150px;
+  height: auto;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  transition: transform 0.3s ease;
+  display: inline-block;
+  margin: 0 auto;
+
+}
+
+.photo-identite img:hover {
+  transform: scale(1.05);
+}
+
+.photo-identite p {
+  margin-top: 10px;
+  font-weight: bold;
+  color: white;
+  font-size: 1.1em;
+  text-align: center;
+}
+.diplomes {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 40px;
+  border-radius: 20px;
+  margin-top: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.diplomes h2 {
+  text-align: center;
+  font-size: 1.8em;
+  color: #fff;
+  margin-bottom: 30px;
+  text-decoration: underline;
+  text-shadow: 1px 1px 4px #ff69b4;
+}
+
+.diplome-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.diplome {
+  background-color: rgba(255, 255, 255, 0.08);
+  border-left: 5px solid #ff69b4;
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: #222;
+  box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(5px);
+}
+
+.diplome h3 {
+  margin: 0 0 5px;
+  font-size: 1.3em;
+  color: #ff69b4;
+}

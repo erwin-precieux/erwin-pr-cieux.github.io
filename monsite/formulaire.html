@@ -1,0 +1,69 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN""http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr">
+<head>
+	<title>Bienvenue sur mon site !</title>
+	<meta http-equiv="Content-Type"content="text/html;charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="styleformulaire.css">
+</head>
+<body>
+	 <form>
+    <h2>État Civil</h2>
+    <div class="section form-row">
+      <div class="form-group">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required>
+      </div>
+      <div class="form-group">
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required>
+      </div>
+      <div class="form-group">
+        <label for="naissance">Date de naissance :</label>
+        <input type="date" id="naissance" name="naissance" required>
+      </div>
+      <div class="form-group">
+        <label for="lieu">Lieu de naissance :</label>
+        <input type="text" id="lieu" name="lieu">
+      </div>
+      <div class="form-group">
+        <label for="adresse">Adresse :</label>
+        <input type="text" id="adresse" name="adresse">
+      </div>
+      <div class="form-group">
+        <label for="telephone">Téléphone :</label>
+        <input type="tel" id="telephone" name="telephone">
+      </div>
+      <div class="form-group">
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div class="form-group">
+        <label for="nationalite">Nationalité :</label>
+        <input type="text" id="nationalite" name="nationalite">
+      </div>
+    </div>
+
+    <h2>Mes Diplômes</h2>
+    <div class="section checkbox-group">
+      <label><input type="checkbox" name="diplomes" value="BEP"> BEP</label>
+      <label><input type="checkbox" name="diplomes" value="CAP"> CAP</label>
+      <label><input type="checkbox" name="diplomes" value="BAC"> BAC</label>
+      <label><input type="checkbox" name="diplomes" value="BTS"> BTS</label>
+      <label><input type="checkbox" name="diplomes" value="Licence"> Licence</label>
+      <label><input type="checkbox" name="diplomes" value="Master"> Master</label>
+    </div>
+
+    <h2>Expertise</h2>
+    <div class="section radio-group">
+      <label><input type="radio" name="expertise" value="Expert IT" required> Expert IT</label>
+      <label><input type="radio" name="expertise" value="Expert en bavardage"> Expert en bavardage</label>
+    </div>
+
+    <button type="submit">Envoyer</button>
+    <button type="reset" style="background-color: yellow; color: black;">Réinitialiser</button>
+  <button type="button" style="background-color: red; color: white;">Inutile</button>
+</div>
+  </form>
+
+</body>
+</html>
